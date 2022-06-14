@@ -1,0 +1,39 @@
+/* -------------------------------------------- */
+/* Styling //////////////////////////////////// */
+/* -------------------------------------------- */
+
+div.cardLayout {
+  font-size: 90%;
+  width: 200px;
+  height: 220px;
+}
+
+div.cardLayout > div.cardImage {
+  width: 100%;
+  height: 130px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+div.cardLayout > div.cardImage > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+div.cardLayout > div.cardDetails {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+}
+
+div.cardLayout > div.cardDetails > h1 {
+  font-size: inherit;
+}
+
+div.cardLayout > div.cardDetails > p > span {
+  color: Grey;
+}
+
+div.cardLayout > div.cardDetails > p > span.cardAttribute::after {
+  content: " ";
+}
